@@ -38,6 +38,7 @@ Write a program whose major task is to calculate an individual’s Net Salary by
 NB: Use KRA, NHIF, and NSSF values provided in the link below.
 
 KRA Tax Rates https://www.kra.go.ke/en/individual/calculate-tax/calculating-tax/paye
-NHIF and NSSF rateshttps://www.aren.co.ke/payroll/taxrates.htm
+
+NHIF and NSSF rates https://www.aren.co.ke/payroll/taxrates.htm
 
 
