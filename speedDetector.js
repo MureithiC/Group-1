@@ -1,3 +1,16 @@
+// Prompt the user to input speed
+const speedInput = prompt("Enter Speed:");
+
+// Convert the input to a number
+const speed = parseFloat(speedInput);
+
+// Check if the input can be parsed as a number
+if (!isNaN(speed)) {
+    calculateDemeritPoints(speed);
+} else {
+    console.log("Invalid input. Please enter a valid number.");
+}
+
 // Function to calculate demerit points based on car speed
 function calculateDemeritPoints(speed) {
     const speedLimit = 70;
@@ -20,6 +33,3 @@ function calculateDemeritPoints(speed) {
         }
     }
 }
-
-// Example: Call the function with a speed of 80
-calculateDemeritPoints(80);
